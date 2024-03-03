@@ -1,4 +1,4 @@
-import Faq from "@/Faq";
+import Faq from "@/layouts/components/Faq";
 import ClientLogoSlider from "@/layouts/components/home/ClientLogoSlider";
 import Features from "@/layouts/components/home/Features";
 import Generate from "@/layouts/components/home/Generate";
