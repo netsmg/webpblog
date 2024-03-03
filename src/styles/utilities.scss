@@ -1,0 +1,45 @@
+.copyright {
+  a {
+    @apply hover:text-primary;
+  }
+}
+
+.rounded-sm {
+  @apply rounded-[4px];
+}
+.rounded {
+  @apply rounded-[6px];
+}
+.rounded-lg {
+  @apply rounded-[12px];
+}
+.rounded-xl {
+  @apply rounded-[16px];
+}
+
+.shadow {
+  box-shadow: 0px 10px 34px 0px rgba(18, 25, 38, 4%);
+}
+
+// review masonry
+@layer utilities {
+  @layer responsive {
+    .masonry,
+    .masonry-sm,
+    .masonry-md {
+      column-gap: 1.5em;
+    }
+    .masonry {
+      column-count: 1;
+    }
+    .masonry-sm {
+      column-count: 2;
+    }
+    .masonry-md {
+      column-count: 3;
+    }
+    .break-inside {
+      break-inside: avoid;
+    }
+  }
+}

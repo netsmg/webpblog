@@ -1,0 +1,19 @@
+.btn {
+  @apply inline-block rounded-lg border border-transparent px-11 py-3 text-center font-bold capitalize transition ease-in-out;
+}
+
+.btn-sm {
+  @apply rounded-sm px-4 py-1.5 text-center text-sm;
+}
+
+.btn-primary {
+  @apply border-primary bg-primary text-center text-dark hover:border-primary hover:bg-transparent;
+}
+
+.btn-outline-primary {
+  @apply bg-theme-light text-center text-dark hover:border-primary hover:bg-transparent;
+}
+
+.btn-secondary {
+  @apply border-dark bg-transparent text-center text-dark duration-150 hover:border-primary hover:bg-primary;
+}
