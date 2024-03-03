@@ -16,7 +16,7 @@ import config from "@/config/config.json";
 
 const Home = () => {
   const { sticky_header } = config.settings;
-  const homepage: HomePage = getListPage("homepage/_index.md");
+  const homepage: HomePage = getListPage("home-page/_index.md");
   const { banner, logo, feature, step, review } = homepage.frontmatter;
   const callToAction = getListPage("sections/call-to-action.md");
 
