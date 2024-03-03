@@ -1,0 +1,91 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "About us",
+      "url": "/about-us"
+    },
+    {
+      "name": "Use case",
+      "url": "/use-case"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog"
+    },
+    {
+      "name": "Pricing",
+      "url": "/pricing"
+    },
+    {
+      "name": "Pages",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Our Team",
+          "url": "/our-team"
+        },
+        {
+          "name": "Career",
+          "url": "/career"
+        },
+        {
+          "name": "Contact us",
+          "url": "/contact-us"
+        },
+        {
+          "name": "FAQ",
+          "url": "/faq"
+        },
+        {
+          "name": "404 Page",
+          "url": "/404"
+        }
+      ]
+    }
+  ],
+  "footer": [
+    {
+      "name": "Company",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "About us",
+          "url": "/about-us"
+        },
+        {
+          "name": "FAQ",
+          "url": "/faq"
+        },
+        {
+          "name": "Contact",
+          "url": "/contact-us"
+        }
+      ]
+    },
+    {
+      "name": "Pages",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Our team",
+          "url": "/our-team"
+        },
+        {
+          "name": "Career",
+          "url": "/career"
+        },
+        {
+          "name": "404 Page",
+          "url": "/404"
+        }
+      ]
+    }
+  ]
+}
