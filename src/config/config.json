@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Visionex",
-    "base_url": "https://visionex-nextjs.vercel.app",
+    "title": "Webpblog",
+    "base_url": "https://webpblog.vercel.app/",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "115",
     "logo_height": "36",
-    "logo_text": "Visionex"
+    "logo_text": "Webpblog"
   },
 
   "settings": {
@@ -20,7 +20,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed By [Themefisher](https://themefisher.com/)"
+    "copyright": "Designed And Developed By [Webpblog](https://webpblog.vercel.app/)"
   },
 
   "disqus": {
@@ -30,8 +30,8 @@
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Webpblog",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Visionex Nextjs Theme"
+    "meta_description": "An authentic blog made with nextjs"
   }
 }
